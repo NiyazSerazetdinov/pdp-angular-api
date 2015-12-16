@@ -13,7 +13,7 @@ module V1
     end
 
     def show
-      respond_with article
+      respond_with article, serializer: ArticleShowSerializer
     end
 
     private
