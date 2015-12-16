@@ -8,6 +8,8 @@ Rails.application.routes.draw do
       post "users/sign_in", to: 'sessions#create'
     end
 
-    resources :articles, only: %i(index show create)
+    resources :articles, only: %i(index show create) do
+      resources :comments, only: %i(create)
+    end
   end
 end
