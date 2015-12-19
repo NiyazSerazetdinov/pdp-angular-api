@@ -1,11 +1,21 @@
 {
   "resources": [
     {
-      "name": "Errors",
+      "name": "Articles",
       "examples": [
         {
-          "description": "Request to unexisting page",
-          "link": "errors/request_to_unexisting_page.json",
+          "description": "Create an article",
+          "link": "articles/create_an_article.json",
+          "groups": "all"
+        },
+        {
+          "description": "Get an article",
+          "link": "articles/get_an_article.json",
+          "groups": "all"
+        },
+        {
+          "description": "Get list of articles",
+          "link": "articles/get_list_of_articles.json",
           "groups": "all"
         }
       ]
@@ -21,6 +31,26 @@
         {
           "description": "Sign in with invalid password",
           "link": "sessions/sign_in_with_invalid_password.json",
+          "groups": "all"
+        }
+      ]
+    },
+    {
+      "name": "Errors",
+      "examples": [
+        {
+          "description": "Request to unexisting page",
+          "link": "errors/request_to_unexisting_page.json",
+          "groups": "all"
+        }
+      ]
+    },
+    {
+      "name": "Comments",
+      "examples": [
+        {
+          "description": "Create a comment",
+          "link": "comments/create_a_comment.json",
           "groups": "all"
         }
       ]

@@ -148,7 +148,7 @@ GEM
     minitest (5.8.1)
     multi_json (1.11.2)
     mustache (0.99.8)
-    nokogiri (1.6.7)
+    nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
     parser (2.2.2.6)
